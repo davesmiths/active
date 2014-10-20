@@ -1,0 +1,1 @@
+/*github.com/davesmiths/active*/(function(a){a.fn.active=function(f){var c=this,e,b,d,g;if(a.type(f)==="function"){f={callback:f}}b=f.delay||100;d=f.ns?"."+f.ns:"";g=f.callback||function(){};a(window).on("resize"+d,function(){clearTimeout(e);e=setTimeout(function(){g.call(c)},b)});return g.call(c)}}(jQuery));

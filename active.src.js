@@ -1,4 +1,4 @@
-(function($) {
+/*github.com/davesmiths/active*/(function($) {
 
 	'use strict';
 
