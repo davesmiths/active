@@ -1,5 +1,6 @@
 (function($) {
 
+	'use strict';
 
 	$.fn.active = function(o) {
 
